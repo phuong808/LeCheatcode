@@ -21,6 +21,9 @@ Input is a Matrix/Graph
 Find the Shortest/Nearest Path/Distance in a Tree/Matrix/Graph
 - BFS (non-weighted): O(n)
 - Dijkstra (weighted): O(E log V)
+- Bellman-Ford (negative weights): O(V * E)
+- Floyd-Warshall (all pairs): O(V³)
+- A* (heuristic): O(E log V)
 
 String Concatenation
 - StringBuilder: O(n) (Java, C#, etc.)
@@ -69,3 +72,7 @@ Map/Set
 
 Deque
 - Replaces Stack, Queue, and LinkedList
+
+Design Problems
+- HashMap + Doubly Linked List (LRU Cache)
+- Multiple Data Structures (coordinate operations)
